@@ -1,0 +1,109 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.mikepython",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "mikepython",
+                    "user_id": "010dfe26158e4203a4284e6e7564903d",
+                    "friendly_name": "MikePython"
+                },
+                "last_changed": "2020-11-27T12:32:22.237675+00:00",
+                "last_updated": "2020-11-27T12:32:29.351068+00:00",
+                "context": {
+                    "id": "9171f2a0537995fb7a03742b3796c288",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-27T16:26:22.989863+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_lights_red",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-11-27T12:41:21.033231+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "automation_light_red",
+                    "friendly_name": "turn lights red"
+                },
+                "last_changed": "2020-11-27T12:32:24.747133+00:00",
+                "last_updated": "2020-11-27T12:41:31.227167+00:00",
+                "context": {
+                    "id": "d4c5052cc13bf9ffa81f4835ce094055",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-27T16:26:22.989863+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_lights_normal",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-11-27T12:41:38.196945+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "automation_light_normal",
+                    "friendly_name": "turn lights normal"
+                },
+                "last_changed": "2020-11-27T12:32:24.748974+00:00",
+                "last_updated": "2020-11-27T12:41:48.359627+00:00",
+                "context": {
+                    "id": "941992d605889f7091bd31db878f951a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-27T16:26:22.989863+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_lights_low",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-11-26T11:56:09.836191+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "automation_light_low",
+                    "friendly_name": "turn lights low"
+                },
+                "last_changed": "2020-11-26T11:54:26.252012+00:00",
+                "last_updated": "2020-11-26T11:56:09.878382+00:00",
+                "context": {
+                    "id": "98684f91a5d19669afb73dd05676a401",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-26T11:56:10.507267+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.run_start_recognition",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-11-26T09:54:26.211146+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "run_start_recognition"
+                },
+                "last_changed": "2020-11-26T09:54:26.509323+00:00",
+                "last_updated": "2020-11-26T09:54:26.509323+00:00",
+                "context": {
+                    "id": "c3daaa8d36ac28e4a25078cfc1442f43",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-26T10:08:21.282232+00:00"
+        }
+    ]
+}

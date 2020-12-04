@@ -1,0 +1,14 @@
+- alias: turn lights low
+  id: automation_light_low
+  initial_state: true
+  trigger:
+  - plattform: state
+    entity_id: sensor.personcounter
+    to: 2
+    for:
+      minutes: 0
+  action:
+  - service: light.turn_on
+    entity_id: light.wohnzimmer
+    data:
+      rgb_color: [0,255,0]

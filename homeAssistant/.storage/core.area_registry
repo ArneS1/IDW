@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Wohnzimmer",
+                "id": "26e9dfccafd8054fb7332900675618e4"
+            },
+            {
+                "name": "K\u00fcche",
+                "id": "b45862cca8f768ce18669207451d6ff6"
+            },
+            {
+                "name": "Schlafzimmer",
+                "id": "46187672e144a8abcf2f565f8981b5e4"
+            }
+        ]
+    }
+}

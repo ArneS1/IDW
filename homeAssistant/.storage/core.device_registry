@@ -1,0 +1,187 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "b115f453005ad8033669a807a0bb0a05"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "f6270ea17c98fd55853ef14aa8931db8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ec:b5:fa:17:7d:3a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ECB5FAFFFE177D3A"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "sw_version": "1941132070",
+                "entry_type": null,
+                "id": "00772c6bf87da193603e6cca2f3f3559",
+                "via_device_id": null,
+                "area_id": "26e9dfccafd8054fb7332900675618e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:70:cb:c4"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Wohnzimmer Dimmer",
+                "sw_version": "6.1.1.28573",
+                "entry_type": null,
+                "id": "2465a19eec06b3330f786e27f8f72129",
+                "via_device_id": "00772c6bf87da193603e6cca2f3f3559",
+                "area_id": "26e9dfccafd8054fb7332900675618e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:38:4c:51-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Wohnzimmer",
+                "sw_version": "1.65.9_hB3217DF",
+                "entry_type": null,
+                "id": "65b9e17d6a5be0803a43af3b4ad9b35f",
+                "via_device_id": "00772c6bf87da193603e6cca2f3f3559",
+                "area_id": "26e9dfccafd8054fb7332900675618e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:33:4a:6d-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Kenzo Main",
+                "sw_version": "1.65.9_hB3217DF",
+                "entry_type": null,
+                "id": "bb2b6c25146473466b7e2fead6c2b67d",
+                "via_device_id": "00772c6bf87da193603e6cca2f3f3559",
+                "area_id": "46187672e144a8abcf2f565f8981b5e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:d5:43:f9-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue lightstrip plus",
+                "name": "Kenzo lightstrip",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "bbb68e13a838daec6ad1516652f4d475",
+                "via_device_id": "00772c6bf87da193603e6cca2f3f3559",
+                "area_id": "46187672e144a8abcf2f565f8981b5e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "fbcc078dad63c818b769b16b8af87b75"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:a6:e1:83-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Wohnzimmer Couch",
+                "sw_version": "1.65.9_hB3217DF",
+                "entry_type": null,
+                "id": "456c55df2ede9fb802c7e9c76f6dfdb2",
+                "via_device_id": "00772c6bf87da193603e6cca2f3f3559",
+                "area_id": "26e9dfccafd8054fb7332900675618e4",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "ffac3f8d978968bd9edd7ef287bee847"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "0B:6E:BD:B6:AB:36"
+                    ],
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "003MAMB7P755"
+                    ]
+                ],
+                "manufacturer": "LG Electronics",
+                "model": "65UM7100PLA",
+                "name": "LG webOS TV 8EF3",
+                "sw_version": "05.00.02",
+                "entry_type": null,
+                "id": "b771e91c1e39916e9ee5f0cbdc1e9f7e",
+                "via_device_id": null,
+                "area_id": "26e9dfccafd8054fb7332900675618e4",
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

@@ -1,0 +1,84 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+python_script:
+
+mqtt: 
+  broker: http://localhost:1883
+  username: mikepython
+  password: mikepython
+
+camera:
+  - platform: ffmpeg
+    name: tapo_c200
+    input: rtsp://raspberry:raspberry@192.168.178.55:554/stream1
+
+sensor:
+  - platform: mqtt
+    state_topic: "personcounter"
+    name: "personcounter"
+    unique_id: 187
+
+automation:
+  - alias: turn lights red
+    id: automation_light_red
+    initial_state: true
+    trigger:
+      platform: mqtt
+      topic: personcounter
+      payload: "4"
+      encoding: "utf-8"
+    action:
+    - service: light.turn_on
+      entity_id: light.wohnzimmer
+      data:
+        rgb_color: [255,0,0]
+    - service: light.turn_on
+      entity_id: light.wohnzimmer_couch
+      data:
+        rgb_color: [255,0,0]
+    - service: notify.michael_wendler
+      data:
+        message: "Achtung! Abstand halten und Stoßlüften!"
+        data:
+          photo:
+            url: "https://i.pinimg.com/236x/74/b7/6e/74b76e19760506341aa3c0f76015aacf.jpg"
+    - delay: '00:00:10'
+       
+  - alias: turn lights normal
+    id: automation_light_normal
+    initial_state: true
+    trigger:
+      platform: mqtt
+      topic: personcounter
+      payload: "3"
+      encoding: "utf-8"
+    action:
+    - service: light.turn_on
+      entity_id: light.wohnzimmer
+      data:
+        rgb_color: [0,255,0]
+    - service: light.turn_on
+      entity_id: light.wohnzimmer_couch
+      data:
+        rgb_color: [0,255,0]
+    - delay: '00:00:10'
+
+
+webostv:
+  host: 192.168.178.23
+  name: Michael-Wendler
+
+media_player:
+
+notify:

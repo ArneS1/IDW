@@ -1,0 +1,65 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "KI-IDW-2020",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "person.mikepython"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "picture-entity",
+                            "entity": "camera.tapo_c200",
+                            "image": "https://demo.home-assistant.io/stub_config/bedroom.png"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.personcounter",
+                                    "secondary_info": "last-updated"
+                                }
+                            ],
+                            "title": "Personen im Raum:",
+                            "header": {
+                                "type": "graph",
+                                "entity": "sensor.personcounter",
+                                "detail": 2,
+                                "hours_to_show": 0.016
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.wohnzimmer",
+                            "show_state": true
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.wohnzimmer_couch",
+                            "name": "Couch L\u00e1mp\u00e9"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
